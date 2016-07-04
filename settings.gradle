@@ -1,1 +1,1 @@
-include ':scolltextview'
+include ':scolltextview', ':sample'

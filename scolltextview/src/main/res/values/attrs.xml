@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BaseScollTextView">
+        <attr name="delayTime" format="integer|reference"/>
+        <attr name="textSize" format="dimension|reference"/>
+        <attr name="textColor" format="color|reference"/>
+        <attr name="singleLine" format="boolean"/>
+        <attr name="gravity">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="direction">
+            <enum name="top" value="0"/>
+            <enum name="down" value="1"/>
+            <enum name="left" value="2"/>
+            <enum name="right" value="3"/>
+        </attr>
+        <attr name="ellipsize">
+            <enum name="start" value="0"/>
+            <enum name="middle" value="1"/>
+            <enum name="end" value="2"/>
+            <enum name="marquee" value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>
