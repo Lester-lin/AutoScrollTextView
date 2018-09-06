@@ -1,10 +1,10 @@
-#ScollTextView
+# ScollTextView
 **一个自动滚动文字公告控件。支持上，下，左，右4个方向滚出。**  
 
-##效果图
+## 效果图
 ![sample](http://ww4.sinaimg.cn/large/9012f5bdjw1f5j1g7db9mg20bs0j613i.gif)
 
-##使用方法
+## 使用方法
 
 **build.gradle中加入**  
 `compile 'com.lester:scolltextview:1.0.0'`  
@@ -36,16 +36,16 @@ scollTextView= (ScollTextView) findViewById(R.id.view);
         android:layout_marginTop="30dp"/>
 ```
 
-##属性说明
-| 属性    | 说明   |
-| ------- |:-----:|
-|textSize|字体大小|
-|textColor|字体颜色|
-|singleLine|是否单航显示|
-|ellipsize|单行显示不完时的处理方式|
-|direction|文字滚动方向|
-|delayTime|文字滚动间隔时间|
-|gravity|文字对其方式|
+#### 属性说明
+ 属性 | 说明
+ ------- | -----
+ |textSize|字体大小| 
+ |textColor|字体颜色| 
+ |singleLine|是否单航显示| 
+ |ellipsize|单行显示不完时的处理方式| 
+ |direction|文字滚动方向| 
+ |delayTime|文字滚动间隔时间| 
+ |gravity|文字对其方式|
 
 
 
